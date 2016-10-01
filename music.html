@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        /*
+         * 方法：
+         * play()播放
+         * pause()暂停
+         * load()重新加载
+         *
+         * 属性：
+         * src:
+         * loop:
+         * autoplay:
+         * * played：返回的是布尔型，表示当前媒体处于播放状态
+         * paused:返回的是布尔型，表示当前媒体处于暂停状态
+         * playbackRate：读取或修改当前的播放速率（播放的倍数）
+         *                默认的速率是1
+         volume:读取或修改媒体的音量
+         *         范围（0-1）0为静音  1 为最大
+         * muted:读取或修改媒体的静音状态
+         * true:静音状态
+         * duration媒体文件的总播放时间
+         * currentTime 媒体播放的当前
+         * ended表示是否处于结束状态
+         *
+         * 事件：
+         * timeupdate:当前播放位置被改变触发该事件
+         * ended 媒体播放结束事件
+         * */
+
+         /*歌曲的播放与暂停*/
+         function fun1(){
+            var v_au=document.getElementById("auid");
+            var bf_btn=document.getElementById("zt_id")
+
+            if( v_au. paused){
+                v_au.play();
+                bf_btn.innerText="暂停"
+
+            }else{
+                v_au.pause();
+                bf_btn.innerText="播放"
+            }
+        }
+       /*重放*/
+        function fun2(){
+            var au=document.getElementById("auid");
+            au.load()
+        }
+      /*快进*/
+        function fun3(){
+            var au=document.getElementById("auid");
+            au.playbackRate++;
+        }
+
+     /*调大或调小音量*/
+        function fun4(){
+
+            var aud=document.getElementById("auid");
+            var i=aud.volume;
+            aud.volume=i+0.1;
+
+        }
+        function fun5(){
+            var aud=document.getElementById("auid");
+            var i=aud.volume;
+            aud.volume=i-0.1;
+
+        }
+      //进度条控制
+        window.onload= function () {
+
+            var aud=document.getElementById("auid");
+            aud.addEventListener("timeupdate",fun6,false);
+            function fun6(){
+                var v1=aud.currentTime;
+                var v2=aud.duration;
+                document.getElementById("pro_id").value=Math.round(v1/v2*100);
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<audio src="audio/Colbie%20Caillat%20-%20Try.mp3" autoplay id="auid"></audio><!--插入歌曲-->
+<button onclick=" fun1(this)" id="zt_id">暂停</button>
+<button onclick="fun2()">重放</button>
+<button onclick="fun3()">快进</button>
+<button onclick="fun4()">增大音量</button>
+<button onclick="fun5()">减小音量</button>
+<!--运行中的进度条-->
+<progress max="100" value="0" style="width: 300px" id="pro_id" >
+</progress>
+
+</body>
+</html>

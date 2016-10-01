@@ -1,0 +1,195 @@
+
+/*header*/
+#header{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	border: 1px solid #f1f1f1;
+}
+#loadname{
+	position: absolute;
+	left: 680px;
+	padding: 10px 5px;
+}
+#loadname_table{
+	position: absolute;
+	left: 690px;
+	font-size: 13px;
+	top: 30px;
+	border: 1px solid #f1f1f1;
+	width: 90px;
+	height: 100px;
+	display: none;
+	line-height: 20px;
+}
+#loadname_table td:hover{
+	padding: 0px 6px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+
+}
+#header_nav{
+	position: absolute;
+	left: 785px;
+	top: 15px;
+}
+#header_nav nav{
+	float: left;
+	margin-left: 17px;
+	color: #929292;
+	font-size: 12px;
+}
+#header_nav nav:hover{
+	cursor: pointer;
+	color: black;
+}
+#pro{
+	position: absolute;
+	left: 280px;
+	top: -5px;
+}
+#pro:hover{
+	cursor: pointer;
+}
+#doubanFM_logo{
+	position: absolute;
+	left: 230px;
+	top: 70px;
+
+}
+
+/*bck_color*/
+#bck_color{
+	position: relative;
+	width: 100%;
+	height: 278px;
+	background-color:#e1e8e5;
+}
+
+/*radioplayer*/
+#radioplayer{
+	width: 510px;
+	height: 245px;
+	box-shadow: 3px 3px 3px #888888;
+	background-color: white;
+	position: relative;
+	left: 585px;
+	top: -350px;
+	
+}
+#playername{
+	position: absolute;
+	left: 270px;
+	top: 30px;
+}
+#audioname{
+	position: absolute;
+	left: 270px;
+	top: 90px;
+	color: #5CE45C;
+	font-size: 14px;
+}
+#pro_bottom{
+	position: absolute;
+	left: 270px;
+	top: 130px;
+	width: 220px;
+	height: 3px;
+	background-color:#f1f1f1 ;
+}
+#pro_up{
+	position: absolute;
+	left: 270px;
+	top: 130px;
+	width: 0px;
+	height: 3px;
+	background-color:#5CE45C ;
+	z-index: 100;
+}
+#time{
+	position: absolute;
+	left: 435px;
+	top: 140px;
+	color: gray;
+	font-size: 12px;
+}
+#pause{
+	position: absolute;
+	left: 483px;
+}
+#volume{
+	position: absolute;
+	top: 139px;
+	left: 480px;
+}
+#volume_progress{
+	width: 115px;
+	height: 20px;
+	position: absolute;
+	background-color: white;
+	left: 375px;
+	top: 135px;
+	border: 1px solid black;
+}
+
+#volume_btn{
+	position: absolute;
+	
+	top: 2px;
+}
+#volume_bottom{
+	width: 100px;
+	height: 3px;
+	background-color: #f1f1f1;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+#volume_top{
+	width: 100px;
+	height: 3px;
+	background-color: gray;
+	position: absolute;
+	left: 10px;
+	top: 7px;
+}
+#volume_ball{
+        position: absolute;
+        left: 104px;
+        top:5px;
+        background-color: gray;
+        border-radius: 3px;
+        width: 6px;
+        height: 6px;
+}
+
+#bofang_div{
+	width: 265px;
+	 height: 245px;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: 245px;
+	top: 0px;
+	display: none;
+}
+#bofang{
+	position: absolute;
+	left: 107px;
+	top: 105px;
+	font-size: 13px;
+}
+#bofang:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
