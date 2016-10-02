@@ -1,10 +1,13 @@
 
 /*header*/
 #header{
-	position: relative;
+	position: fixed;
+	top: 0px;
 	width: 100%;
 	height: 200px;
 	border: 1px solid #f1f1f1;
+	background-color: white;
+	z-index: 200;
 }
 #loadname{
 	position: absolute;
@@ -60,10 +63,55 @@
 
 /*bck_color*/
 #bck_color{
-	position: relative;
+	position: fixed;
+	top: 200px;
 	width: 100%;
 	height: 278px;
 	background-color:#e1e8e5;
+}
+#phone{
+	position: fixed;
+	top: 380px;
+	left: 585px;
+}
+#audio_to_phone{
+	font-size: 12px;
+	color: gray;
+	position: fixed;
+	left: 615px;
+	top: 390px;
+	text-decoration: none;
+}
+#audio_to_phone:hover{
+	color: black;
+}
+#similar_audio{
+	position: fixed;
+	left: 997px;
+	top: 385px;
+	width: 90px;
+	height: 35px;
+	border: 1px solid #5CE45C;
+	background-color: #e1e8e5;
+	color: #5CE45C;
+}
+#similar_audio:hover{
+	background-color: #5CE45C;
+	color: white;
+	cursor: pointer;
+}
+#share_btn{
+	color: gray;
+	font-size: 13px;
+	position: fixed;
+	left: 1020px;
+	top: 425px;
+}
+#logos{
+	position: fixed;
+	left: 930px;
+	top: 430px;
+	display: none;
 }
 
 /*radioplayer*/
@@ -72,10 +120,41 @@
 	height: 245px;
 	box-shadow: 3px 3px 3px #888888;
 	background-color: white;
-	position: relative;
+	position: fixed;
 	left: 585px;
-	top: -350px;
-	
+	top: 120px;
+	z-index: 300;
+}
+
+
+#search_zhuanji{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:245px;
+	height: 245px;
+	background-color: rgba(0,0,0,0.2);
+	display: none;
+}
+#search{
+	position: absolute;
+	left: 90px;
+	top: 100px;
+	font-size: 14px;
+	color: white;
+	width: 60px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.3);
+}
+#search:hover{
+	cursor: pointer;
+}
+#poster_search{
+	width: 245px;
+	height: 245px;
+}
+#poster_search:hover #search_zhuanji{
+	display: block;
 }
 #playername{
 	position: absolute;
@@ -116,6 +195,7 @@
 #pause{
 	position: absolute;
 	left: 483px;
+	top: 0px;
 }
 #volume{
 	position: absolute;
@@ -129,7 +209,7 @@
 	background-color: white;
 	left: 375px;
 	top: 135px;
-	border: 1px solid black;
+	display: none;
 }
 
 #volume_btn{
@@ -181,6 +261,229 @@
 #bofang:hover{
 	cursor: pointer;
 }
+
+#like_audio{
+	position: absolute;
+	left: 340px;
+	top: 160px;
+	font-size: 12px;
+	color: gray;
+	display: none;
+}
+#blackxin{
+	position: absolute;
+	left: 350px;
+	top: 190px;
+}
+#like:hover{
+	cursor: pointer;
+}
+#like:hover #like_audio{
+	display: block;
+}
+
+#hate_audio{
+	position: absolute;
+	left: 340px;
+	top: 160px;
+	font-size: 12px;
+	color: gray;
+	display: none;
+}
+#redxin{
+	position: absolute;
+	left: 350px;
+	top: 190px;
+	display: none;
+}
+#hate:hover{
+	cursor: pointer;
+}
+#hate:hover #hate_audio{
+	display: block;
+}
+
+#delete_wenzi{
+	position: absolute;
+	left: 395px;
+	top: 160px;
+	font-size: 12px;
+	color: gray;
+	display: none;
+}
+#delete{
+	position: absolute;
+	left: 405px;
+	top: 191px;
+}
+#delete_audio:hover{
+	cursor: pointer;
+}
+#delete_audio:hover #delete_wenzi{
+	display: block;
+}
+
+#nextwenzi{
+	position: absolute;
+	left: 450px;
+	top: 160px;
+	font-size: 12px;
+	color: gray;
+	display: none;
+}
+#nextaudio{
+	position: absolute;
+	left: 450px;
+	top: 192px;
+}
+#next_audio:hover{
+	cursor: pointer;
+}
+#next_audio:hover #nextwenzi{
+	display: block;
+}
+
+
+#btns button:hover{
+	background-color:#B2B7B5 
+}
+#siren{
+	width: 200px;
+	height: 40px;
+	background-color:#5CE45C ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 225px;
+}
+#hongxin{
+	width: 200px;
+	height: 40px;
+	background-color: #D4DAD8;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 285px;
+}
+#everyday{
+	width: 200px;
+	height: 40px;
+	background-color:white ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 345px;
+}
+#jingxuan{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 405px;
+}
+#zuijin{
+	position: absolute;
+	left: 180px;
+	top: 460px;
+	color: gray;
+	font-size: 12px;
+}
+#try{
+	position: absolute;
+	left: 180px;
+	top: 510px;
+	color: gray;
+	font-size: 12px;
+}
+#RB{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 560px;
+}
+#bls{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 625px;
+}
+#lightmusic{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 690px;
+}
+#yaogun{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 755px;
+}
+#jueshi{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 820px;
+}
+#pinpai{
+	position: absolute;
+	left: 180px;
+	top: 875px;
+	color: gray;
+	font-size: 12px;
+}
+#sk{
+	width: 200px;
+	height: 40px;
+	background-color:#D4DAD8 ;
+	border: none;
+	position: absolute;
+	left: 180px;
+	top: 925px;
+}
+
+
+#xiazai{
+	position: fixed;
+	left: 935px;
+	top: 510px;
+}
+#xiazai:hover{
+	cursor: pointer;
+}
+
+#bottom{
+	position: absolute;
+	left: 100px;
+	top: 1100px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

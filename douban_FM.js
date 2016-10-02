@@ -1,4 +1,5 @@
 (function () {
+	// header
 	var loadname_hover = document.getElementById('loadname_hover');
 	var loadname_table = document.getElementById('loadname_table');
 	loadname_hover.onmouseover = function() {
@@ -7,7 +8,24 @@
 	loadname_hover.onmouseout = function() {
 		loadname_table.style.display = "none";
 	}
+	// bck_color
+	var share = document.getElementById('share');
+	var share_btn = document.getElementById('share_btn');
+	var logos = document.getElementById('logos');
+	share.onmouseover = function() {
+		logos.style.display = "block";
+		share_btn.style.left = "850px";
+	}
+	share.onmouseout = function() {
+		logos.style.display = "none";
+		share_btn.style.left = "1020px";
+	}
 
+
+
+
+
+	// audioplayer
 	var audio = document.getElementById('audio');
 	var pro_up = document.getElementById('pro_up');
 	audio.ontimeupdate = function () {
@@ -31,51 +49,46 @@
 		bofang_div.style.display = "none";
 	}
 
-	var volume_bottom = document.getElementById('volume_bottom');
-	var volume_ball = document.getElementById("volume_ball");
-	var volume_top =document.getElementById('volume_top');
-	// volume_ball.ondragend = function(event){
-	// 	var length = event.clientX - volume_bottom.offsetLeft;
-	// 	var percent = length / volume_bottom.offsetWidth;
-		
-	// 		volume_top.style.width = percent * 100 + "px";
-	// 		volume_ball.style.left = percent * 100 + 10 + "px";
-	// 		audio.volume = percent;
-		
-	// }
-	// volume_ball.ondrag = function(event){
-	// 	var length = event.clientX - volume_bottom.offsetLeft;
-	// 	var percent = length / volume_bottom.offsetWidth;
-		
-	// 		volume_top.style.width = percent * 100 + "px";
-	// 		volume_ball.style.left = percent * 100 + 10 + "px";
-	// 		audio.volume = percent;
-		
-	// }
-
-	// volume_bottom.onmousedown = function(event) {
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_top.style.width = volume_percent * 100 + "px";
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_ball.style.left = volume_percent * 10+"px";
- //            audio.volume = volume_percent;
- //    }
- //    volume_top.onmousedown = function(event) {
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_top.style.width = volume_percent * 100 + "px";
- //            volume_ball.style.left =10 + audio.volume*100 +"px";
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_ball.style.left = volume_percent * 100+10+"px";
- //            audio.volume = volume_percent;
- //    }
+	
+	var volume_control = document.getElementById('volume_control');
+	var volume_progress = document.getElementById('volume_progress')
+	volume_control.onmouseover = function () {
+		volume_progress.style.display = "block";
+	}
+	volume_control.onmouseout = function () {
+		volume_progress.style.display = "none";
+	}
 
 
+	var blackxin = document.getElementById('blackxin');
+	var redxin = document.getElementById('redxin');
+	blackxin.onclick = function() {
+		redxin.style.display = "block";
+		blackxin.style.display = "none"
+	}
+	redxin.onclick = function() {
+		redxin.style.display = "none";
+		blackxin.style.display = "block"
+	}
 
-
+	var delete_ = document.getElementById('delete');
+	var poster = document.getElementById('poster');
+	var audio = document.getElementById('audio');
+	var playername = document.getElementById('playername');
+	var audioname = document.getElementById('audioname');
+	delete_.onclick = function(){
+		poster.src = "valder_fields.jpg";
+		audio.src = "Valder Fields.mp3";
+		playername.innerHTML = "Tamas Wells";
+		audioname.innerHTML = "Valder Fields";
+	}
+	var nextaudio = document.getElementById('nextaudio');
+	nextaudio.onclick = function(){
+		poster.src = "tryeverying.jpg";
+		audio.src = "Try Everything.mp3";
+		playername.innerHTML = "Shakira";
+		audioname.innerHTML = "Try Everything";
+	}
 
 
 
