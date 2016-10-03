@@ -5,6 +5,8 @@
 	<title>dobanFM</title>
 	<script type="text/javascript" defer src = "douban_FM.js"></script>
 	<link rel="stylesheet" type="text/css" href="douban_FM.css">
+	<link rel="stylesheet" type="text/css" href="fm-ctrlline.css">
+	<script type="text/javascript" defer src = "fm-ctrlline.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -59,25 +61,20 @@
 				<p id="search">查看专辑</p>
 			</div>
 		</div>
-		<audio src="Burning.mp3" id="audio" autoplay="" ></audio>
+		<audio src="Burning.mp3" id="audio"  ></audio>
 		<img src="zanting.jpg" id="pause">
 		<h2 id="playername">Maria Arredondo</h2>
 		<p id="audioname">Burning</p>
 		<div id="pro_bottom"></div>
 		<div id="pro_up"></div>
 		<div id="time">00:00</div>
-		<div id="volume_control">
+
+		<div id="volume_pro">
 			<img src="volume_btn.jpg" id="volume">
-			<div id="volume_progress">
-				<img src="volume_btn.jpg" id="volume_btn">
-				<div id="volume_bottom"></div>
-				<div id="volume_top"></div>
-				<div id="volume_ball" draggable = "true"></div>
-			</div>
-		</div>	
-		<div id="bofang_div">
-			<p id="bofang">继续收听 ></p>
+			<div id="volume_bottom"></div>
+			<div id="volume_top"></div>
 		</div>
+		
 		<div id="like">
 			<p id="like_audio">喜欢这首歌</p>
 			<img src="blackxin.jpg" id="blackxin">
@@ -93,6 +90,9 @@
 		<div id="next_audio">
 			<p id="nextwenzi">下一首</p>
 			<img src="nextaudio.jpg" id="nextaudio">
+		</div>
+		<div id="bofang_div">
+			<p id="bofang">继续收听 ></p>
 		</div>
 	</div>
 	<div id="btns">
@@ -113,5 +113,64 @@
 	</div>
 	<img src="xiazai.png" id="xiazai">
 	<img src="bottom.png" id="bottom">
+
+
+
+	<!-- fm-ctrlline -->
+	<div>
+		<div id="fm-ctrlline">
+			<div class="bckcolor"></div>
+			<button id="ctrlline_open">》</button>
+		</div>
+
+		<div id = "ctrlline_neirong">
+			<button id="ctrlline_close">《</button>
+			
+			<div ctrlline_header>
+				<p class="all_mhz">全部兆赫</p>
+				<input type="text" placeholder="搜索兆赫" class="search_mhz">
+				<button class="sousuo"><img src="sousuo.png"
+				height="24px;"></button>
+			</div>
+			<div id="lunbo">
+				<img src="1.png" id="lunbo_img">
+				<div id="button">						
+					<button id="btn1" class="btn1">1</button>
+					<button id="btn2" class="btn2">2</button>
+					<button id="btn3" class="btn3">3</button>
+					<button id="btn4" class="btn4">4</button>
+					<button id="btn5" class="btn5">5</button>
+					<button id="btn6" class="btn6">6</button>
+				</div>
+				<p id="mhz_name">R&B MHz</p>
+				<p id="jieshao">跟随着节拍一起摇摆</p>
+				<p id=hotaudio>热门歌曲:Dynamite/Right Now/Mad</p>
+				<p id="audionum">2606首歌</p>
+				<p id="xiangqing">兆赫详情</p>
+			</div>
+				
+			
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

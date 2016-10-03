@@ -5,7 +5,6 @@
 	top: 0px;
 	width: 100%;
 	height: 200px;
-	border: 1px solid #f1f1f1;
 	background-color: white;
 	z-index: 200;
 }
@@ -24,6 +23,7 @@
 	height: 100px;
 	display: none;
 	line-height: 20px;
+
 }
 #loadname_table td:hover{
 	padding: 0px 6px;
@@ -197,51 +197,34 @@
 	left: 483px;
 	top: 0px;
 }
+
+
 #volume{
 	position: absolute;
 	top: 139px;
-	left: 480px;
-}
-#volume_progress{
-	width: 115px;
-	height: 20px;
-	position: absolute;
-	background-color: white;
-	left: 375px;
-	top: 135px;
-	display: none;
+	left: 470px;
 }
 
-#volume_btn{
-	position: absolute;
-	
-	top: 2px;
-}
 #volume_bottom{
-	width: 100px;
+	width: 70px;
 	height: 3px;
 	background-color: #f1f1f1;
 	position: absolute;
-	left: 10px;
-	top: 7px;
+	left: 415px;
+	top: 144px;
+	display: none;
 }
 #volume_top{
-	width: 100px;
+	width: 0px;
 	height: 3px;
 	background-color: gray;
 	position: absolute;
-	left: 10px;
-	top: 7px;
+	left: 415px;
+	top: 144px;
+	display: none;
 }
-#volume_ball{
-        position: absolute;
-        left: 104px;
-        top:5px;
-        background-color: gray;
-        border-radius: 3px;
-        width: 6px;
-        height: 6px;
-}
+
+
 
 #bofang_div{
 	width: 265px;

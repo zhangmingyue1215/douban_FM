@@ -50,14 +50,39 @@
 	}
 
 	
-	var volume_control = document.getElementById('volume_control');
-	var volume_progress = document.getElementById('volume_progress')
-	volume_control.onmouseover = function () {
-		volume_progress.style.display = "block";
+	var volume_pro = document.getElementById('volume_pro');
+	var volume_bottom = document.getElementById('volume_bottom');
+	var volume_top = document.getElementById('volume_top');
+	var volume = document.getElementById('volume');
+	volume_pro.onmouseover = function () {
+		
+		volume_top.style.display = "block";
+		volume_bottom.style.display = "block";
+		volume.style.left = "400px";
+		document.getElementById('time').style.display = "none";
+			
 	}
-	volume_control.onmouseout = function () {
-		volume_progress.style.display = "none";
+	volume_pro.onmouseout = function () {
+		
+		volume_top.style.display = "none";
+		volume_bottom.style.display = "none";
+		volume.style.left = "480px";
+		document.getElementById('time').style.display = "block";
+		
 	}
+	// volume_bottom.onmousedown = function(event) {
+ //            var volume_length = event.clientX - volume_bottom.offsetLeft;
+ //            var volume_percent = volume_length / volume_bottom.offsetWidth;
+ //            volume_top.style.width = volume_percent * 70 + "px";
+ //            audio.volume = volume_percent;
+ //    }
+ //    volume_top.onmousedown = function(event) {
+ //            var volume_length = event.clientX - volume_bottom.offsetLeft;
+ //            var volume_percent = volume_length / volume_bottom.offsetWidth;
+ //            volume_top.style.width = volume_percent * 70 + "px";
+ //            audio.volume = volume_percent;
+ //    }
+
 
 
 	var blackxin = document.getElementById('blackxin');

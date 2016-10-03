@@ -1,0 +1,239 @@
+#fm-ctrlline {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 26px;
+    cursor: pointer;
+    z-index: 500;
+    box-shadow: 5px 5px 5px #888888;
+}
+.bckcolor{
+	position: fixed;
+	top: 200px;
+	width: 26px;
+	height: 278px;
+	background-color:#E5EFEB;
+}
+#ctrlline_open{
+	position: fixed;
+	width: 18px;
+	height: 100px;
+	left: 8px;
+	top: 300px;
+	background-color: #D4DAD8;
+	border: none;
+	cursor: pointer;
+}
+#fm-ctrlline:hover #ctrlline_open{
+	background-color: #5CE45C;
+	color: white;
+}
+#ctrlline_neirong{
+	position: fixed;
+	left: -685px;
+	top: 0;
+	width: 680px;
+	height: 1000px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #888888;
+	z-index: 500;
+	-webkit-transition:left 2s;
+
+}
+
+
+#ctrlline_close{
+	position: fixed;
+	width: 18px;
+	height: 100px;
+	left: -18px;
+	top: 300px;
+	background-color: #D4DAD8;
+	border: none;
+	cursor: pointer;
+	z-index: 10;
+	-webkit-transition:left 2s;
+}
+#ctrlline_close:hover{
+	background-color: #5CE45C;
+	color: white;
+}
+
+
+.all_mhz{
+	font-size: 30px;
+	color: #a2a8ac;
+	position: absolute;
+	left: 60px;
+	top: 40px;
+}
+.search_mhz{
+	position: absolute;
+	left: 350px;
+	top: 70px;
+	width: 235px;
+	height: 25px;
+	border: 1px solid #f0f0f0;
+	border-right: none;
+}
+.sousuo{
+	position: absolute;
+	left: 587px;
+	top: 70px;
+	width: 30px;
+	height: 29px;
+	background-color: white;
+	border: 1px solid #f0f0f0;
+	border-left: none;
+	cursor: pointer;
+}
+
+#lunbo{
+	width: 680px;
+	height: 278px;
+	position: absolute;
+	top: 200px;
+	background-color: #E5EFEB;
+}
+
+#btn1{
+	position: absolute;
+	left: 320px;
+	top: 30px;
+	background-color:#D4DAD8 ;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#btn2{
+	position: absolute;
+	left: 345px;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #D4DAD8;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#btn3{
+	position: absolute;
+	left: 370px;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #D4DAD8;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#btn4{
+	position: absolute;
+	left: 395px;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #D4DAD8;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#btn5{
+	position: absolute;
+	left: 420px;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #D4DAD8;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#btn6{
+	position: absolute;
+	left: 445px;
+	top: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #D4DAD8;
+	border: none;
+	font-size: 10px;
+	color: gray;
+	cursor: pointer;
+}
+#button button:hover{
+	background-color: #5CE45C;
+}
+#mhz_name{
+	font-size: 20px;
+	color: gray;
+	position: absolute;
+	left: 320px;
+	top: 60px;
+}
+#lunbo:hover #mhz_name{
+	color: #5CE45C;
+}
+#jieshao{
+	font-size: 12px;
+	color: #A0A0A0;
+	position: absolute;
+	left: 320px;
+	top: 110px;
+
+}
+#hotaudio{
+	font-size: 12px;
+	color: #A0A0A0;
+	position: absolute;
+	left: 320px;
+	top: 150px;
+}
+#audionum{
+	font-size: 12px;
+	color: #A0A0A0;
+	position: absolute;
+	left: 320px;
+	top: 190px;
+}
+#xiangqing{
+	font-size: 12px;
+	color: #A0A0A0;
+	position: absolute;
+	left: 390px;
+	top: 190px;
+}
+#xiangqing:hover{
+	color: #5CE45C;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
