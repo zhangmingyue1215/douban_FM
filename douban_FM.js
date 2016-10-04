@@ -50,38 +50,19 @@
 	}
 
 	
-	var volume_pro = document.getElementById('volume_pro');
-	var volume_bottom = document.getElementById('volume_bottom');
-	var volume_top = document.getElementById('volume_top');
-	var volume = document.getElementById('volume');
-	volume_pro.onmouseover = function () {
-		
-		volume_top.style.display = "block";
-		volume_bottom.style.display = "block";
-		volume.style.left = "400px";
-		document.getElementById('time').style.display = "none";
-			
-	}
-	volume_pro.onmouseout = function () {
-		
-		volume_top.style.display = "none";
-		volume_bottom.style.display = "none";
-		volume.style.left = "480px";
-		document.getElementById('time').style.display = "block";
-		
-	}
-	// volume_bottom.onmousedown = function(event) {
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_top.style.width = volume_percent * 70 + "px";
- //            audio.volume = volume_percent;
- //    }
- //    volume_top.onmousedown = function(event) {
- //            var volume_length = event.clientX - volume_bottom.offsetLeft;
- //            var volume_percent = volume_length / volume_bottom.offsetWidth;
- //            volume_top.style.width = volume_percent * 70 + "px";
- //            audio.volume = volume_percent;
- //    }
+	// var volume_bottom = document.getElementById('volume_bottom');
+	// var volume_top = document.getElementById('volume_top');
+	// audio.onvolumechange = function(){
+	// 	volume_top.style.width = audio.volume*70 + "px"; 
+	// }
+	// volume_bottom.onclick = function (event) {
+	// 	audio.volume = (event.clientX - volume_bottom.offsetLeft)/70;
+	// 	volume_top.style.width = audio.volume*70 + "px";
+	// }
+	// volume_top.onclick = function (event) {
+	// 	audio.volume = (event.clientX - volume_bottom.offsetLeft)/70;
+	// 	volume_top.style.width = audio.volume*70 + "px";
+	// }
 
 
 

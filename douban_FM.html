@@ -61,20 +61,18 @@
 				<p id="search">查看专辑</p>
 			</div>
 		</div>
-		<audio src="Burning.mp3" id="audio"  ></audio>
+		<audio src="Burning.mp3" id="audio"  autoplay=""></audio>
 		<img src="zanting.jpg" id="pause">
 		<h2 id="playername">Maria Arredondo</h2>
 		<p id="audioname">Burning</p>
 		<div id="pro_bottom"></div>
 		<div id="pro_up"></div>
 		<div id="time">00:00</div>
+<!-- 声音条 -->
+		<img src="volume_btn.jpg" id="volume">
+		<div id="volume_bottom"></div>
+		<div id="volume_top"></div>	
 
-		<div id="volume_pro">
-			<img src="volume_btn.jpg" id="volume">
-			<div id="volume_bottom"></div>
-			<div id="volume_top"></div>
-		</div>
-		
 		<div id="like">
 			<p id="like_audio">喜欢这首歌</p>
 			<img src="blackxin.jpg" id="blackxin">
@@ -117,7 +115,7 @@
 
 
 	<!-- fm-ctrlline -->
-	<div>
+	
 		<div id="fm-ctrlline">
 			<div class="bckcolor"></div>
 			<button id="ctrlline_open">》</button>
@@ -135,12 +133,12 @@
 			<div id="lunbo">
 				<img src="1.png" id="lunbo_img">
 				<div id="button">						
-					<button id="btn1" class="btn1">1</button>
-					<button id="btn2" class="btn2">2</button>
-					<button id="btn3" class="btn3">3</button>
-					<button id="btn4" class="btn4">4</button>
-					<button id="btn5" class="btn5">5</button>
-					<button id="btn6" class="btn6">6</button>
+					<button id="btn1">1</button>
+					<button id="btn2">2</button>
+					<button id="btn3">3</button>
+					<button id="btn4">4</button>
+					<button id="btn5">5</button>
+					<button id="btn6">6</button>
 				</div>
 				<p id="mhz_name">R&B MHz</p>
 				<p id="jieshao">跟随着节拍一起摇摆</p>
@@ -148,11 +146,147 @@
 				<p id="audionum">2606首歌</p>
 				<p id="xiangqing">兆赫详情</p>
 			</div>
-				
-			
+			<div id="biaoqian">
+				<nav>摇滚</nav>
+				<nav>｜</nav>
+				<nav>古典</nav>
+				<nav>｜</nav>
+				<nav>爵士</nav>
+				<nav>｜</nav>
+				<nav>民谣／乡村</nav>
+				<nav>｜</nav>
+				<nav>流行</nav>
+				<nav>｜</nav>
+				<nav>电子</nav>
+				<nav>｜</nav>
+				<nav>原声配乐</nav>
+				<nav>｜</nav>
+				<nav>轻音乐</nav>
+				<nav>｜</nav>
+				<nav>说唱</nav>
+				<nav>｜</nav>
+				<nav>雷鬼</nav>
+				<nav>｜</nav>
+				<nav>拉丁</nav>
+				<nav>｜</nav>
+				<nav>世界音乐</nav>
+				<nav>｜</nav>
+				<nav>布鲁斯</nav>
+				<nav>｜</nav>
+				<nav>放克／灵歌／R&B</nav>
+			</div>
+			<p class="hotmhz_wenzi">热门兆赫</p>
+			<div id="hymhz">
+				<img src="hy.jpg" id="hy">
+				<p>华语MHz</p>
+				<div>1189首歌 兆赫详情</div>
+			</div>
+			<div id="ommhz">
+				<img src="om.jpg" id="om">
+				<p>欧美MHz</p>
+				<div>3599首歌 兆赫详情</div>
+			</div>
+			<div id="blmhz">
+				<img src="80.jpg" id="bl">
+				<p>八零MHz</p>
+				<div>883首歌 兆赫详情</div>
+			</div>
+			<div id="gzmhz">
+				<img src="gz.jpg" id="gz">
+				<p>工作学习MHz</p>
+				<div>兆赫详情</div>
+			</div>
+			<div id="yymhz">
+				<img src="yy.jpg" id="yy">
+				<p>粤语MHz</p>
+				<div>2704首歌 兆赫详情</div>
+			</div>
+			<div id="qyymhz">
+				<img src="qyy.jpg" id="qyy">
+				<p>轻音乐MHz</p>
+				<div>2736首歌 兆赫详情</div>
+			</div>
+			<div id="cfmhz">
+				<img src="cf.jpg" id="cf">
+				<p>咖啡MHz</p>
+				<div>1710首歌 兆赫详情</div>
+			</div>
+			<div id="ndmhz">
+				<img src="nd.jpg" id="nd">
+				<p>你的歌词我的故事MHz</p>
+				<div>588首歌 兆赫详情</div>
+			</div>
+			<div id="ksmhz">
+				<img src="ks.jpg" id="ks">
+				<p>看书浇花晒太阳MHz</p>
+				<div>1288首歌 兆赫详情</div>
+			</div>
+			<div id="jsmhz">
+				<img src="js.jpg" id="js">
+				<p>爵士MHz</p>
+				<div>4163首歌 兆赫详情</div>
+			</div>
+			<p class="up_fast">上升最快</p>
+			<div id="gzmhz2">
+				<img src="gz.jpg">
+				<p>工作学习MHz</p>
+				<div>兆赫详情</div>
+			</div>
+			<div id="xqxmhz">
+				<img src="xqx.jpg">
+				<p>小清新MHz</p>
+				<div>180首歌 兆赫详情</div>
+			</div>
+			<div id="xgmhz">
+				<img src="xg.jpg">
+				<p>新歌MHz</p>
+				<div>10000+首歌 兆赫详情</div>
+			</div>
+			<div id="kfmhz">
+				<img src="cf.jpg">
+				<p>咖啡MHz</p>
+				<div>1710首歌 兆赫详情</div>
+			</div>
+			<div id="gdmhz">
+				<img src="gd.jpg">
+				<p>古典nMHz</p>
+				<div>2646首歌 兆赫详情</div>
+			</div>
+			<div id="jsmhz2">
+				<img src="js.jpg">
+				<p>爵士MHz</p>
+				<div>4163首歌 兆赫详情</div>
+			</div>
+			<div id="mymhz">
+				<img src="my.jpg">
+				<p>民谣MHz</p>
+				<div>3781首歌 兆赫详情</div>
+			</div>
+			<div id="qyymhz2">
+				<img src="qyy.jpg">
+				<p>轻音乐MHz</p>
+				<div>2736首歌 兆赫详情</div>
+			</div>
+			<div id="dymhz">
+				<img src="dy.jpg">
+				<p>电影原声MHz</p>
+				<div>4377首歌 兆赫详情</div>
+			</div>
+			<div id="jlmhz">
+				<img src="90.jpg">
+				<p>九零MHz</p>
+				<div>874首歌 兆赫详情</div>
+			</div>
+
+			<p class="ppmhz">品牌兆赫</p>
+			<div id="skmhz">
+				<img src="SK.jpg">
+				<p>SK-||最初的梦MHz</p>
+				<div>50首歌 兆赫详情</div>
+			</div>
 		</div>
 
-	</div>
+	
 
 
 

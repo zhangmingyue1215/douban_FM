@@ -30,11 +30,12 @@
 	color: white;
 }
 #ctrlline_neirong{
-	position: fixed;
+	position: absolute;
 	left: -685px;
+	/*left: 0px;*/
 	top: 0;
 	width: 680px;
-	height: 1000px;
+	height: 1750px;
 	background-color: white;
 	box-shadow: 5px 5px 5px #888888;
 	z-index: 500;
@@ -197,6 +198,7 @@
 
 }
 #hotaudio{
+	width: 300px;
 	font-size: 12px;
 	color: #A0A0A0;
 	position: absolute;
@@ -222,8 +224,594 @@
 	cursor: pointer;
 }
 
+#biaoqian{
+	width: 500px;
+	position: absolute;
+	top: 520px;
+	left: 50px;
+}
+#biaoqian nav{
+	font-size: 12px;
+	color:#A0A0A0;
+	cursor: pointer;
+	float: left; 
+	margin: 5px 2px;
+
+}
+#biaoqian nav:hover{
+	color: #5CE45C;
+}
+
+.hotmhz_wenzi{
+	font-size: 15px;
+	position: absolute;
+	top: 580px;
+	left: 50px;
+}
+
+#hymhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 650px;
+	left: 50px;
+}
+#hymhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#hymhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#hymhz div:hover{
+	color: #5CE45C;
+}
 
 
+#ommhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 650px;
+	left: 350px;
+}
+#ommhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#ommhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#ommhz div:hover{
+	color: #5CE45C;
+}
+
+#blmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 730px;
+	left: 50px;
+}
+#blmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#blmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#blmhz div:hover{
+	color: #5CE45C;
+}
+
+
+#gzmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 730px;
+	left: 350px;
+}
+#gzmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#gzmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#gzmhz div:hover{
+	color: #5CE45C;
+}
+
+#yymhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 810px;
+	left: 50px;
+}
+#yymhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#yymhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#yymhz div:hover{
+	color: #5CE45C;
+}
+
+
+#qyymhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 810px;
+	left: 350px;
+}
+#qyymhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#qyymhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#qyymhz div:hover{
+	color: #5CE45C;
+}
+
+#cfmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 890px;
+	left: 50px;
+}
+#cfmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#cfmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#cfmhz div:hover{
+	color: #5CE45C;
+}
+
+
+#ndmhz{
+	width: 215px;
+	height: 60px;
+	position: absolute;
+	top: 890px;
+	left: 350px;
+}
+#ndmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#ndmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#ndmhz div:hover{
+	color: #5CE45C;
+}
+#ksmhz{
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	top: 970px;
+	left: 50px;
+}
+#ksmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#ksmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#ksmhz div:hover{
+	color: #5CE45C;
+}
+
+
+#jsmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 970px;
+	left: 350px;
+}
+#jsmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#jsmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#jsmhz div:hover{
+	color: #5CE45C;
+}
+
+.up_fast{
+	font-size: 15px;
+	position: absolute;
+	top: 1070px;
+	left: 50px;
+}
+#gzmhz2{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1140px;
+	left: 50px;
+}
+#gzmhz2 p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#gzmhz2 div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#gzmhz2 div:hover{
+	color: #5CE45C;
+}
+
+
+#xqxmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1140px;
+	left: 350px;
+}
+#xqxmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#xqxmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#xqxmhz div:hover{
+	color: #5CE45C;
+}
+#xgmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1220px;
+	left: 50px;
+}
+#xgmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#xgmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#xgmhz div:hover{
+	color: #5CE45C;
+}
+
+
+#kfmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1220px;
+	left: 350px;
+}
+#kfmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#kfmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#kfmhz div:hover{
+	color: #5CE45C;
+}
+
+#gdmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1300px;
+	left: 50px;
+}
+#gdmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#gdmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#gdmhz div:hover{
+	color: #5CE45C;
+}
+
+
+#jsmhz2{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1300px;
+	left: 350px;
+}
+#jsmhz2 p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#jsmhz2 div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#jsmhz2 div:hover{
+	color: #5CE45C;
+}
+#mymhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1380px;
+	left: 50px;
+}
+#mymhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#mymhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#mymhz div:hover{
+	color: #5CE45C;
+}
+
+
+#qyymhz2{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1380px;
+	left: 350px;
+}
+#qyymhz2 p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#qyymhz2 div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#qyymhz2 div:hover{
+	color: #5CE45C;
+}
+#dymhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1460px;
+	left: 50px;
+}
+#dymhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#dymhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#dymhz div:hover{
+	color: #5CE45C;
+}
+
+
+#jlmhz{
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	top: 1460px;
+	left: 350px;
+}
+#jlmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#jlmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#jlmhz div:hover{
+	color: #5CE45C;
+}
+
+.ppmhz{
+	font-size: 15px;
+	position: absolute;
+	top: 1540px;
+	left: 50px;
+}
+#skmhz{
+	width: 210px;
+	height: 60px;
+	position: absolute;
+	top: 1605px;
+	left: 50px;
+}
+#skmhz p{
+	font-size: 15px;
+	cursor: pointer;
+	position: absolute;
+	left: 60px;
+	top: -0px;
+}
+#skmhz div{
+	font-size: 12px;
+	color: #A0A0A0;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 60px;
+}
+#skmhz div:hover{
+	color: #5CE45C;
+}
 
 
 

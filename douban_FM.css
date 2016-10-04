@@ -187,7 +187,7 @@
 }
 #time{
 	position: absolute;
-	left: 435px;
+	left: 370px;
 	top: 140px;
 	color: gray;
 	font-size: 12px;
@@ -202,7 +202,7 @@
 #volume{
 	position: absolute;
 	top: 139px;
-	left: 470px;
+	left: 410px;
 }
 
 #volume_bottom{
@@ -210,18 +210,17 @@
 	height: 3px;
 	background-color: #f1f1f1;
 	position: absolute;
-	left: 415px;
+	left: 425px;
 	top: 144px;
-	display: none;
+	
 }
 #volume_top{
 	width: 0px;
 	height: 3px;
 	background-color: gray;
 	position: absolute;
-	left: 415px;
-	top: 144px;
-	display: none;
+	left: 425px;
+	
 }
 
 
@@ -325,7 +324,6 @@
 #next_audio:hover #nextwenzi{
 	display: block;
 }
-
 
 #btns button:hover{
 	background-color:#B2B7B5 
@@ -454,8 +452,8 @@
 
 #bottom{
 	position: absolute;
-	left: 100px;
-	top: 1100px;
+	left: 200px;
+	top: 1170px;
 }
 
 
