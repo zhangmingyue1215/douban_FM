@@ -6,13 +6,11 @@
 	ctrlline_open.onclick = function() {
 		ctrlline_neirong.style.left = "0px";
 		ctrlline_close.style.left = "662px";
-		ctrlline_close.style.visibility = "visible";
 		
 	}
 	ctrlline_close.onclick = function() {
 		ctrlline_neirong.style.left = "-685px";
 		ctrlline_close.style.left = "-18px";
-		ctrlline_close.style.visibility = "hidden";
 		
 	}
 

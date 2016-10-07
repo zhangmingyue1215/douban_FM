@@ -274,7 +274,20 @@
 #hymhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban1{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#hymhz:hover .mengban1{
+	display: block;
+}
 
 #ommhz{
 	width: 180px;
@@ -301,7 +314,20 @@
 #ommhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban2{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#ommhz:hover .mengban2{
+	display: block;
+}
 #blmhz{
 	width: 180px;
 	height: 60px;
@@ -327,7 +353,20 @@
 #blmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban3{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#blmhz:hover .mengban3{
+	display: block;
+}
 
 #gzmhz{
 	width: 180px;
@@ -354,7 +393,20 @@
 #gzmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban4{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#gzmhz:hover .mengban4{
+	display: block;
+}
 #yymhz{
 	width: 180px;
 	height: 60px;
@@ -379,6 +431,20 @@
 }
 #yymhz div:hover{
 	color: #5CE45C;
+}
+.mengban5{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#yymhz:hover .mengban5{
+	display: block;
 }
 
 
@@ -407,7 +473,20 @@
 #qyymhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban6{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 5px;
+	top: 2px;
+	display: none;
+}
+#qyymhz:hover .mengban6{
+	display: block;
+}
 #cfmhz{
 	width: 180px;
 	height: 60px;
@@ -433,7 +512,20 @@
 #cfmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban7{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 3px;
+	top: 5px;
+	display: none;
+}
+#cfmhz:hover .mengban7{
+	display: block;
+}
 
 #ndmhz{
 	width: 215px;
@@ -460,6 +552,20 @@
 #ndmhz div:hover{
 	color: #5CE45C;
 }
+.mengban8{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#ndmhz:hover .mengban8{
+	display: block;
+}
 #ksmhz{
 	width: 200px;
 	height: 60px;
@@ -485,7 +591,20 @@
 #ksmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban9{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 12px;
+	top: 8px;
+	display: none;
+}
+#ksmhz:hover .mengban9{
+	display: block;
+}
 
 #jsmhz{
 	width: 180px;
@@ -512,7 +631,20 @@
 #jsmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban10{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	display: none;
+}
+#jsmhz:hover .mengban10{
+	display: block;
+}
 .up_fast{
 	font-size: 15px;
 	position: absolute;
@@ -544,7 +676,20 @@
 #gzmhz2 div:hover{
 	color: #5CE45C;
 }
-
+.mengban11{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#gzmhz2:hover .mengban11{
+	display: block;
+}
 
 #xqxmhz{
 	width: 180px;
@@ -571,6 +716,20 @@
 #xqxmhz div:hover{
 	color: #5CE45C;
 }
+.mengban12{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	display: none;
+}
+#xqxmhz:hover .mengban12{
+	display: block;
+}
 #xgmhz{
 	width: 180px;
 	height: 60px;
@@ -596,7 +755,20 @@
 #xgmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban13{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 1px;
+	top: 2px;
+	display: none;
+}
+#xgmhz:hover .mengban13{
+	display: block;
+}
 
 #kfmhz{
 	width: 180px;
@@ -623,7 +795,20 @@
 #kfmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban14{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 3px;
+	top: 5px;
+	display: none;
+}
+#kfmhz:hover .mengban14{
+	display: block;
+}
 #gdmhz{
 	width: 180px;
 	height: 60px;
@@ -649,7 +834,20 @@
 #gdmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban15{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#gdmhz:hover .mengban15{
+	display: block;
+}
 
 #jsmhz2{
 	width: 180px;
@@ -676,6 +874,20 @@
 #jsmhz2 div:hover{
 	color: #5CE45C;
 }
+.mengban16{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 4px;
+	top: 2px;
+	display: none;
+}
+#jsmhz2:hover .mengban16{
+	display: block;
+}
 #mymhz{
 	width: 180px;
 	height: 60px;
@@ -701,7 +913,20 @@
 #mymhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban17{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 3px;
+	top: 1px;
+	display: none;
+}
+#mymhz:hover .mengban17{
+	display: block;
+}
 
 #qyymhz2{
 	width: 180px;
@@ -728,6 +953,20 @@
 #qyymhz2 div:hover{
 	color: #5CE45C;
 }
+.mengban18{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	display: none;
+}
+#qyymhz2:hover .mengban18{
+	display: block;
+}
 #dymhz{
 	width: 180px;
 	height: 60px;
@@ -753,7 +992,20 @@
 #dymhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban19{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 2px;
+	display: none;
+}
+#dymhz:hover .mengban19{
+	display: block;
+}
 
 #jlmhz{
 	width: 180px;
@@ -780,7 +1032,20 @@
 #jlmhz div:hover{
 	color: #5CE45C;
 }
-
+.mengban20{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	display: none;
+}
+#jlmhz:hover .mengban20{
+	display: block;
+}
 .ppmhz{
 	font-size: 15px;
 	position: absolute;
@@ -813,7 +1078,20 @@
 	color: #5CE45C;
 }
 
-
+.mengban21{
+	width: 46px;
+	height: 46px;
+	border-radius: 23px;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	display: none;
+}
+#skmhz:hover .mengban21{
+	display: block;
+}
 
 
 

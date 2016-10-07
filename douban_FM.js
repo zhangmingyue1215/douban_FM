@@ -50,19 +50,20 @@
 	}
 
 	
-	// var volume_bottom = document.getElementById('volume_bottom');
-	// var volume_top = document.getElementById('volume_top');
-	// audio.onvolumechange = function(){
-	// 	volume_top.style.width = audio.volume*70 + "px"; 
-	// }
-	// volume_bottom.onclick = function (event) {
-	// 	audio.volume = (event.clientX - volume_bottom.offsetLeft)/70;
-	// 	volume_top.style.width = audio.volume*70 + "px";
-	// }
-	// volume_top.onclick = function (event) {
-	// 	audio.volume = (event.clientX - volume_bottom.offsetLeft)/70;
-	// 	volume_top.style.width = audio.volume*70 + "px";
-	// }
+	var volume_bottom = document.getElementById('volume_bottom');
+	var volume_top = document.getElementById('volume_top');
+	var radio_player=document.getElementById('radioplayer')
+	audio.onvolumechange = function(){
+		volume_top.style.width = audio.volume*70 + "px"; 
+	}
+	volume_bottom.onclick = function () {
+		audio.volume = (event.clientX - volume_bottom.offsetLeft-radio_player.offsetLeft)/70;
+		volume_top.style.width = audio.volume*70 + "px";
+	}
+	volume_top.onclick = function () {
+		audio.volume = (event.clientX - volume_bottom.offsetLeft-radio_player.offsetLeft)/70;
+		volume_top.style.width = audio.volume*70 + "px";
+	}
 
 
 
