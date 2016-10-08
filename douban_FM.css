@@ -165,7 +165,7 @@
 	position: absolute;
 	left: 270px;
 	top: 90px;
-	color: #5CE45C;
+	color: #49D2B6;
 	font-size: 14px;
 }
 #pro_bottom{
@@ -182,7 +182,7 @@
 	top: 130px;
 	width: 0px;
 	height: 3px;
-	background-color:#5CE45C ;
+	background-color:#49D2B6 ;
 	z-index: 100;
 }
 #time{
@@ -331,20 +331,22 @@
 #siren{
 	width: 200px;
 	height: 40px;
-	background-color:#5CE45C ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 225px;
+	font-size: 13px;
 }
 #hongxin{
 	width: 200px;
 	height: 40px;
-	background-color: #D4DAD8;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 285px;
+	font-size: 13px;
 }
 #everyday{
 	width: 200px;
@@ -354,15 +356,17 @@
 	position: absolute;
 	left: 180px;
 	top: 345px;
+	font-size: 13px;
 }
 #jingxuan{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 405px;
+	font-size: 13px;
 }
 #zuijin{
 	position: absolute;
@@ -370,6 +374,7 @@
 	top: 460px;
 	color: gray;
 	font-size: 12px;
+
 }
 #try{
 	position: absolute;
@@ -381,47 +386,52 @@
 #RB{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 560px;
+	font-size: 13px;
 }
 #bls{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 625px;
+	font-size: 13px;
 }
 #lightmusic{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 690px;
+	font-size: 13px;
 }
 #yaogun{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 755px;
+	font-size: 13px;
 }
 #jueshi{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 820px;
+	font-size: 13px;
 }
 #pinpai{
 	position: absolute;
@@ -433,11 +443,12 @@
 #sk{
 	width: 200px;
 	height: 40px;
-	background-color:#D4DAD8 ;
+	background: rgba(198,211,205,0.5);
 	border: none;
 	position: absolute;
 	left: 180px;
 	top: 925px;
+	font-size: 13px;
 }
 
 
